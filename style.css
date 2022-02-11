@@ -1,7 +1,7 @@
 <style>
 
   .item1 {
-    background: Blue;
+    background-colour: Blue;
     grid-area: header;
   }
 
