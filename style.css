@@ -1,4 +1,5 @@
 <style>
+
   .item1 {
     background: Blue;
     grid-area: header;
@@ -23,17 +24,12 @@
   }
 
 
-  .all{
-   height:100vh;
-    background: Gray;
-  }
-
 
   .container {
     font-size: 1.5em;
     height: 100vh;
     width: 100%;
-    background: Green;
+    background: LightGrey;
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: 1fr 3fr 3fr 1fr;
@@ -50,8 +46,7 @@
 
   @media (min-width: 599px){
     .container{
-      min-height: 100%;
-      grid-template-columns: 2fr 2fr;
+           grid-template-columns: 2fr 2fr;
       grid-template-rows: 1fr 3fr 1fr;
       grid-template-areas:
       
@@ -66,7 +61,7 @@
     
   @media (min-width: 1024px){
     .container{
-     min-height: 100%;
+     
       grid-template-columns: 3fr 3fr 1fr;
       grid-template-rows: 1fr 3fr ;
       grid-template-areas:
