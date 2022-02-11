@@ -33,7 +33,7 @@
     font-size: 1.5em;
     height: 100vh;
     width: 100%;
-    background: LightGray;
+    background: Green;
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: 1fr 3fr 3fr 1fr;
