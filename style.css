@@ -26,6 +26,24 @@
  @media (max-width: 599px){
   .container {
     font-size: 1.5em;
+        width: 100%;
+    background: LightGray;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 3fr 3fr 1fr;
+    grid-gap: 5px;
+    grid-template-areas:
+      "header"
+      "content"
+      "advert"
+      "aside";
+      
+  }
+}
+
+
+.container {
+    font-size: 1.5em;
     height: 100%;
     width: 100%;
     background: LightGray;
@@ -40,7 +58,28 @@
       "aside";
       
   }
+
+
+ @media (min-width: 599px){
+  .container {
+    font-size: 1.5em;
+        width: 100%;
+    background: LightGray;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 3fr 3fr 1fr;
+    grid-gap: 5px;
+    grid-template-areas:
+      "header"
+      "content"
+      "advert"
+      "aside";
+      
+  }
 }
+
+
+
 
   @media (min-width: 600px){
     .container{
