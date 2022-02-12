@@ -1,5 +1,7 @@
 <style>
-
+.body {
+  height: 100vh;
+}
 
   .container {
     font-size: 1.5em;
