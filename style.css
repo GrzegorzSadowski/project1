@@ -1,5 +1,5 @@
 <style>
- @media (max-width: 599px){
+ 
   .item1 {
    background: Blue;
    grid-area: 1/1/2/2;
@@ -36,7 +36,7 @@
     grid-gap: 3px;
          
   }
-}
+
 
 
 
