@@ -4,8 +4,9 @@
 }
 
   .container {
-    font-size: 1.5em;
-    height: 100vh;
+      font-size: 2rem;
+        height: 100vh;
+
     width: 100%;
     display: grid;
     grid-template-columns: 1fr;
@@ -15,9 +16,15 @@
   }
  
   .item1 {
-   background: #004D8B;
-   grid-area: 1/1/2/2;
-   font-family: 'Roboto Mono', monospace; 
+    background: #004D8B;
+    grid-area: 1/1/2/4;
+    font-family: 'Roboto Mono', monospace;
+    
+    color: white;
+    display: grid;
+    align-items: center;
+    justify-items: center;
+    margin-top: -50px;; 
   }
 
  .item2 {
@@ -41,9 +48,15 @@
       grid-template-rows: 1fr 3fr 1fr;
    }
      .item1 {
-   background: #004D8B;
-   grid-area: 1/1/2/3;
-  font-family: 'Roboto Mono', monospace;
+        background: #004D8B;
+        grid-area: 1/1/2/4;
+        font-family: 'Roboto Mono', monospace;
+        font-size: 80px;
+        color: white;
+        display: grid;
+        align-items: center;
+        justify-items: center;
+        
   }
 
  .item2 {
@@ -65,6 +78,10 @@
     
   }
 
+  #small {
+    font-size: 36px;
+    margin-top: -90px;
+
       
     }
   
@@ -73,21 +90,26 @@
     
   @media (min-width: 1024px){
     .container{
-     display grid;
-      grid-template-columns: 3fr 3fr 1fr;
-      grid-template-rows: 1fr 3fr ;
+    display grid;
+    grid-template-columns: 3fr 3fr 1fr;
+    grid-template-rows: 280px 3fr ;
      
     }
   
 
 .item1 {
-  background: #004D8B;
+  display: grid;
+  grid-template-columns: 1fr 5fr ;
+  background: #051a2b;
   grid-area: 1/1/2/4;
   font-family: 'Roboto Mono', monospace;
-  font: 54px;
-  justify-self: center;
+  color: white;
   align-self: center;
-  font-color: white;
+  justify-self: center;
+  font-size: 140px;
+  margin-top: 5px;
+  
+  
   }
 
  .item2 {
@@ -107,11 +129,22 @@
     background: yellow;
     grid-area: 2/3/3/4;
   }
+
+  #small {
+    font-size: 60px;
+    padding-bottom: 100px;
+    margin-top: -180px;
+
+  
+
 }
 
-#small {
-font: 20px;
+
+
+
 }
+
+
 
 
 </style> 
