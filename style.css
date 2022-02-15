@@ -84,6 +84,10 @@
    background: #004D8B;
    grid-area: 1/1/2/4;
   font-family: 'Roboto Mono', monospace;
+  font: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   }
 
  .item2 {
