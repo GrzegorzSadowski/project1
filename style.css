@@ -81,10 +81,10 @@
   
 
 .item1 {
-   background: #004D8B;
-   grid-area: 1/1/2/4;
+  background: #004D8B;
+  grid-area: 1/1/2/4;
   font-family: 'Roboto Mono', monospace;
-  font: 25px;
+  font: 54px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -109,6 +109,9 @@
   }
 }
 
-  
+#small {
+font: 20px;
+}
+
 
 </style> 
