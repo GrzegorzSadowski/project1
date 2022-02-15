@@ -85,7 +85,8 @@
   grid-area: 1/1/2/4;
   font-family: 'Roboto Mono', monospace;
   font: 54px;
-  place-items: center;
+  justify-self: center;
+  align-self: center;
   font-color: white;
   }
 
