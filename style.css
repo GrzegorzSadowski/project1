@@ -17,7 +17,7 @@
   .item1 {
    background: #004D8B;
    grid-area: 1/1/2/2;
-   font-family: Share Tech Mono; 
+   font-family: 'Roboto Mono', monospace; 
   }
 
  .item2 {
@@ -43,7 +43,7 @@
      .item1 {
    background: #004D8B;
    grid-area: 1/1/2/3;
-  font-family: Share Tech Mono;
+  font-family: 'Roboto Mono', monospace;
   }
 
  .item2 {
@@ -62,7 +62,7 @@
   .item4 {
     background: yellow;
     grid-area: 3/1/4/3;
-    font-family: Share Tech Mono;
+    
   }
 
       
@@ -83,7 +83,7 @@
 .item1 {
    background: #004D8B;
    grid-area: 1/1/2/4;
-  font-family: Share Tech Mono;
+  font-family: 'Roboto Mono', monospace;
   }
 
  .item2 {
