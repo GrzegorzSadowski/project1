@@ -3,11 +3,11 @@ html{
 box-sizing: border-box;
 }
 
-*;
+</!--*;
 *:before,
 *:after {
 boz-sizing: inherit;
-}
+} ---/>
 
 
 .body {
@@ -118,7 +118,7 @@ boz-sizing: inherit;
   align-self: center;
   justify-self: center;
   font-size: 140px;
-  padding-top: 70px;
+  
   
   
   }
@@ -143,8 +143,7 @@ boz-sizing: inherit;
 
   #small {
     font-size: 60px;
-    padding-bottom: 100px;
-    margin-top: -180px;
+   
 
   
 
