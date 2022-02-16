@@ -3,11 +3,10 @@ html{
 box-sizing: border-box;
 }
 
-</!--*;
 *:before,
 *:after {
-boz-sizing: inherit;
-} ---/>
+  box-sizing: inherit;
+}
 
 
 .body {
