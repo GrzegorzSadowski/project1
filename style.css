@@ -111,7 +111,7 @@ boz-sizing: inherit;
 .item1 {
   display: grid;
   grid-template-columns: 1fr 5fr ;
-  background: #051a2b;
+  background: #004D8B;
   grid-area: 1/1/2/4;
   font-family: 'Roboto Mono', monospace;
   color: white;
