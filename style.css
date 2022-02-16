@@ -1,4 +1,12 @@
 <style>
+
+*;
+*:before',
+*:after {
+boz-sizing: inherit;
+}
+
+
 .body {
   height: 100vh;
 }
