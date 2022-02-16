@@ -4,7 +4,7 @@ box-sizing: border-box;
 }
 
 *;
-*:before',
+*:before,
 *:after {
 boz-sizing: inherit;
 }
