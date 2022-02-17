@@ -21,7 +21,22 @@ grid-template-areas:
    "naglowek naglowek naglowek"
    "kontakt nowa stara"
    
-
+.item1 {
+  grid-area: naglowek;
+  background-color: red;
+  }
+.item2 {
+  grid-area: nowa;
+  background-color: blue;
+  }
+ .item3 { 
+  grid-area: stara;
+   background-color: pink;
+  }
+ .item4 { 
+  grid-area: kontakt;
+   background-color: yellow;
+  }
 
 
 }
