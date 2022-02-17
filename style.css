@@ -143,8 +143,9 @@ h6 {
     justify-items: center;
   
   }
-  img {
-    height: 100px;
+
+  #logo {
+    height: 200px;
   }
 
 
@@ -184,8 +185,8 @@ h6 {
     justify-items: center;
 
   }
-  img {
-   height: 250px;
+  #logo {
+    height: 250px;
   }
 
 
@@ -222,12 +223,11 @@ h6 {
     grid-template-columns: 300px 1fr ;
 
   }
-  img {
+  #logo {
     height: 300px;
   }
 
   
 
   }
-
 
