@@ -128,8 +128,7 @@ box-sizing: border-box;
   color: white;
   align-self: center;
   justify-self: center;
- 
-  font-size: 140px;
+   font-size: 140px;
     
   }
 
@@ -155,12 +154,16 @@ box-sizing: border-box;
     
   #small {
     font-size: 60px;
-    
-    
-    
-   
+      
+       
    }
-
+    
+    
+     #logo {
+      
+      
+      width: 300px;
+    }
 
 
 }
