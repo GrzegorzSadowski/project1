@@ -8,11 +8,7 @@ box-sizing: border-box;
   box-sizing: inherit;
 }
 
-  #logo {
-      
-      
-      width: 100%;
-    }
+ 
 
 
 .body {
@@ -119,13 +115,13 @@ box-sizing: border-box;
     .container{
     display grid;
     grid-template-columns: 3fr 3fr 1fr;
-      grid-template-rows: 300px 3fr ;}
+    grid-template-rows: 300px 3fr ;}
     
   
 
 .item1 {
   display: grid;
-  grid-template-columns: 1fr 5fr ;
+  grid-template-columns: 300px auto ;
   background: #004D8B;
   grid-area: 1/1/2/4;
   font-family: 'Roboto Mono', monospace;
@@ -158,6 +154,9 @@ box-sizing: border-box;
     
   #small {
     font-size: 60px;
+    
+    
+    
    
    }
 
