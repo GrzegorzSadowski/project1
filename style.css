@@ -20,6 +20,7 @@ grid-template-columns: 2fr, 5fr, 5fr;
 grid-template-areas: 
    "naglowek naglowek naglowek"
    "kontakt nowa stara"
+}
    
 .item1 {
   grid-area: naglowek;
@@ -42,7 +43,6 @@ grid-template-areas:
   }
 
 
-}
 
 
 
