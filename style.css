@@ -8,6 +8,11 @@ box-sizing: border-box;
   box-sizing: inherit;
 }
 
+  #logo {
+      
+      
+      width: 100%;
+    }
 
 
 .body {
@@ -62,7 +67,7 @@ box-sizing: border-box;
 
 
 
-  @media (max-width: 1023px){
+  @media (min-width: 600px) and (max-width: 1023px){
     .container{
       display:grid;
       grid-template-columns: 2fr 2fr;
@@ -155,11 +160,6 @@ box-sizing: border-box;
     font-size: 60px;
    
    }
-  #logo {
-      
-      height: 300px;
-      width: 300px;
-    }
 
 
 
