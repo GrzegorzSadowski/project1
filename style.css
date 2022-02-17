@@ -99,11 +99,11 @@ box-sizing: border-box;
 
     
   @media (min-width: 1024px){
+    
     .container{
     display grid;
     grid-template-columns: 3fr 3fr 1fr;
-    grid-template-rows: 300px 3fr ;
-     
+      grid-template-rows: 300px 3fr ;}
     
   
 
@@ -117,9 +117,7 @@ box-sizing: border-box;
   align-self: center;
   justify-self: center;
   font-size: 140px;
-  
-  
-  
+    
   }
 
  .item2 {
@@ -140,18 +138,17 @@ box-sizing: border-box;
     grid-area: 2/3/3/4;
   }
 
+    
+    
   #small {
     font-size: 60px;
    
-    #logo {
+   }
+  #logo {
       
       height: 300px;
       width: 300px;
     }
-  
-
-}
-
 
 
 
