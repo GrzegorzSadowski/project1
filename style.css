@@ -16,8 +16,8 @@ box-sizing: border-box;
 .container{
 height: 100vh;
 display: grid;
-grid-template-rows: 300px, auto;
-grid-template-columns: 2fr, 5fr, 5fr;
+grid-template-rows: 300px auto;
+grid-template-columns: 2fr 5fr 5fr;
 grid-template-areas: 
    "naglowek naglowek naglowek"
    "kontakt nowa stara";
