@@ -25,17 +25,20 @@ grid-template-areas:
   grid-area: naglowek;
   background-color: red;
   }
+  
 .item2 {
   grid-area: nowa;
   background-color: blue;
   }
+  
  .item3 { 
   grid-area: stara;
-   background-color: pink;
+  background-color: pink;
   }
+  
  .item4 { 
   grid-area: kontakt;
-   background-color: yellow;
+  background-color: yellow;
   }
 
 
