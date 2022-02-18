@@ -218,9 +218,10 @@ h6 {
     align-content: center;
     justify-items: center;
     font-size: 35px;
-    background-color: var(--yellow); /* best colour */
+    background-color: #142533; /* best colour */
     grid-area: naglowek;
     grid-template-columns: 300px 1fr ;
+    color: white;
 
   }
   #logo {
