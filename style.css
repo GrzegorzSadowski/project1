@@ -144,13 +144,13 @@ h6 {
     justify-items: center;
     background-color: #142533; /* best colour */
     grid-area: naglowek;
-    grid-template-columns: 50px 1fr ;
+    grid-template-columns: 75px 1fr ;
     color: white;
   
   }
 
   #logo {
-    height: 50px;
+    height: 75px;
   }
 
   h1 {
