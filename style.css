@@ -57,7 +57,6 @@ h6 {
   display: grid;
   justify-content: center;
   align-items: center;
-  font-size: 35px;
   background-color: #142533; /* best colour */
   grid-area: naglowek;
   color: white;
@@ -152,7 +151,7 @@ h6 {
   }
 
   #logo {
-    height: 10px;
+    height: 50px;
   }
 
   h1 {
