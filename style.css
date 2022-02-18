@@ -60,7 +60,6 @@ h6 {
   font-size: 35px;
   background-color: #142533; /* best colour */
   grid-area: naglowek;
-  color: white;
   
 }
 
@@ -197,42 +196,3 @@ ontainer {
 }
 
 
-
-
-
-
-
-
-
-@media (min-width: 1023px){
-  .container {
-    height: 100vh;
-  grid-template-columns: 300px 1fr 1fr ;
-  grid-template-rows: 300px 1fr;
-  grid-template-areas: "naglowek naglowek naglowek"
-                        "kontakt opisn  opisi";
-  
-  }
-
-  .item1 {
-    /* We center the contents of these items. You can also do this with flexbox too! */
-    display: grid;
-    align-content: center;
-    justify-items: center;
-    font-size: 35px;
-    background-color: #142533; /* best colour */
-    grid-area: naglowek;
-    grid-template-columns: 300px 1fr ;
-   
-    color: white;
-       
-  }
-  
-  
-  #logo {
-    height: 300px;
-  }
-
-  
-
-  }
