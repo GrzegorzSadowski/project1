@@ -144,7 +144,6 @@ h6 {
     display: grid;
     align-content: center;
     justify-items: center;
-    font-size: 35px;
     background-color: #142533; /* best colour */
     grid-area: naglowek;
     grid-template-columns:  1fr ;
@@ -153,10 +152,16 @@ h6 {
   }
 
   #logo {
-    height: 200px;
+    height: 10px;
   }
 
-
+  h1 {
+  font-size 15px;
+          }
+  
+   h2 {
+  font-size 10px;
+          }
   
 }
 
