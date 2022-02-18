@@ -136,6 +136,7 @@ h6 {
     display: grid;
     justify-content: center;
     align-items: center;
+    justify-items: center;
     font-size: 35px;
     background-color: var(--yellow); /* best colour */
     grid-area: naglowek;
@@ -178,6 +179,7 @@ h6 {
     display: grid;
     justify-content: center;
     align-items: center;
+    justify-items: center;
     font-size: 35px;
     background-color: var(--yellow); /* best colour */
     grid-area: naglowek;
@@ -217,7 +219,7 @@ h6 {
     display: grid;
     justify-content: center;
     align-items: center;
-    
+    justify-items: center;
     font-size: 35px;
     background-color: var(--yellow); /* best colour */
     grid-area: naglowek;
