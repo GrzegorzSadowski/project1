@@ -134,13 +134,13 @@ h6 {
   .item1 {
     /* We center the contents of these items. You can also do this with flexbox too! */
     display: grid;
-    justify-content: center;
-    align-items: center;
+    align-content: center;
+    justify-items: center;
     font-size: 35px;
     background-color: var(--yellow); /* best colour */
     grid-area: naglowek;
     grid-template-columns:  1fr ;
-    justify-items: center;
+    
   
   }
 
@@ -176,13 +176,13 @@ h6 {
   .item1 {
     /* We center the contents of these items. You can also do this with flexbox too! */
     display: grid;
-    justify-content: center;
-    align-items: center;
+    align-content: center;
+    justify-items: center;
     font-size: 35px;
     background-color: var(--yellow); /* best colour */
     grid-area: naglowek;
     grid-template-columns: 250px 1fr ;
-    justify-items: center;
+   
 
   }
   #logo {
@@ -214,8 +214,8 @@ h6 {
   .item1 {
     /* We center the contents of these items. You can also do this with flexbox too! */
     display: grid;
-    justify-content: center;
-    align-items: center;
+    
+    align-content: center;
     justify-items: center;
     font-size: 35px;
     background-color: var(--yellow); /* best colour */
