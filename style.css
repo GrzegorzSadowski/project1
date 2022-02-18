@@ -115,6 +115,13 @@ h6 {
 }
 
 
+.center{
+  display: grid;
+  align-content: center;
+  justify-items: center;
+  }
+
+
 @media (max-width: 599px){
   .container {
     height: 100vh;
@@ -137,7 +144,7 @@ h6 {
     align-content: center;
     justify-items: center;
     font-size: 35px;
-    background-color: var(--yellow); /* best colour */
+    background-color: #142533; /* best colour */
     grid-area: naglowek;
     grid-template-columns:  1fr ;
     
@@ -179,7 +186,7 @@ h6 {
     align-content: center;
     justify-items: center;
     font-size: 35px;
-    background-color: var(--yellow); /* best colour */
+    background-color: #142533; /* best colour */
     grid-area: naglowek;
     grid-template-columns: 250px 1fr ;
    
@@ -225,11 +232,7 @@ h6 {
        
   }
   
-  .center{
-  display: grid;
-  align-content: center;
-  justify-items: center;
-  }
+  
   #logo {
     height: 300px;
   }
