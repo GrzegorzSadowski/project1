@@ -58,7 +58,7 @@ h6 {
   justify-content: center;
   align-items: center;
   font-size: 35px;
-  background-color: var(--yellow); /* best colour */
+  background-color: #142533; /* best colour */
   grid-area: naglowek;
   
 }
@@ -95,12 +95,7 @@ h6 {
 }
 
 
-
-
-
-
-
-.container {
+ontainer {
   height: 100vh;
   width: 100%;
   display: grid;
