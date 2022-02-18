@@ -28,7 +28,7 @@ html {
 
 body {
   margin: -1px -1px -1px -1px;
-  background-color: coral;
+  background-color: white;
      height: 100vh;
   
   
@@ -68,17 +68,16 @@ h6 {
   display: grid;
   justify-content: center;
   align-items: center;
-  
   font-size: 35px;
   background-color: lightslategray; /* best colour */
   grid-area: opisn;
+  
 }
 .item3 {
   /* We center the contents of these items. You can also do this with flexbox too! */
   display: grid;
   justify-content: center;
   align-items: center;
-  
   font-size: 35px;
   background-color: greenyellow; /* best colour */
   grid-area: opisi;
@@ -94,6 +93,18 @@ h6 {
 }
 
 
+.item5 {
+display: grid;
+
+grid-area: linia;
+background-color: white;
+
+
+
+
+}
+
+
 
 
 
@@ -103,14 +114,7 @@ h6 {
   height: 100vh;
   width: 100%;
   display: grid;
-  grid-template-columns:  1fr ;
-  grid-template-rows: 1fr 3fr 3fr 1fr;
-  grid-template-areas: "naglowek"
-                        "opisn"
-                        "opisi"
-                        "kontakt";
-
-
+  
 }
 
 
@@ -118,6 +122,7 @@ h6 {
   display: grid;
   align-content: center;
   justify-items: center;
+  
   }
 
 
@@ -127,8 +132,9 @@ h6 {
     width: 100%;
     display: grid;
     grid-template-columns:  1fr ;
-    grid-template-rows: 1fr 3fr 3fr 1fr;
+    grid-template-rows: 1fr 30px 3fr 3fr 1fr;
     grid-template-areas: "naglowek"
+                          "linia"
                           "opisn"
                           "opisi"
                           "kontakt";
@@ -154,19 +160,14 @@ h6 {
   }
 
   h1 {
-  font-size 15px;
+  font-size 12px;
           }
   
    h2 {
-  font-size 10px;
+  font-size 8px;
           }
   
 }
-
-
-
-
-
 
 
 
@@ -176,8 +177,9 @@ h6 {
   .container {
     height: 100vh;
   grid-template-columns: 250px 1fr 1fr 250px;
-  grid-template-rows: 250px 4fr  250px;
+  grid-template-rows: 250px 30px 4fr  250px;
   grid-template-areas: "naglowek naglowek naglowek naglowek"
+                        "linia linia linia linia"
                         "opisn opisn  opisi opisi"
                         "kontakt kontakt kontakt kontakt";
 
@@ -205,7 +207,29 @@ h6 {
 }
 
 
+.item5 {
+  display: grid;
+  grid-area: linia;
+  justify-content: center;
+  
+  
+  }
 
+ #rectangle{
+
+  width:  100%;
+  height: 10px;
+  background-color: #f0ce0f;
+  
+ } 
+
+
+ #triangle{
+  width:  0;
+  height: 0;
+  border-left: 30px solid transparent ;
+  border-right: 30px solid transparent;
+  border-top: 30px solid #f0ce0f;
 
 
 
@@ -216,8 +240,9 @@ h6 {
   .container {
     height: 100vh;
   grid-template-columns: 300px 1fr 1fr ;
-  grid-template-rows: 300px 1fr;
+  grid-template-rows: 300px 30px 1fr;
   grid-template-areas: "naglowek naglowek naglowek"
+                        "kontakt linia linia"
                         "kontakt opisn  opisi";
   
   }
@@ -235,7 +260,37 @@ h6 {
     color: white;
        
   }
+
+
+
+  .item5 {
+    display: grid;
+    grid-area: linia;
+    justify-content: center;
+    
+    
+    }
   
+   #rectangle{
+
+    width:  100%;
+    height: 10px;
+    background-color: #f0ce0f;
+    
+   } 
+
+
+   #triangle{
+    width:  0;
+    height: 0;
+    border-left: 30px solid transparent ;
+    border-right: 30px solid transparent;
+    border-top: 30px solid #f0ce0f;
+    
+    
+
+
+   }
   
   #logo {
     height: 300px;
