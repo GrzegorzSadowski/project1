@@ -89,8 +89,9 @@ h6 {
   justify-content: center;
   align-items: center;
   font-size: 35px;
-  background-color: rosybrown; /* best colour */
+  background-color: #142533; /* best colour */
   grid-area: kontakt;
+  border-top: 10px solid #f0ce0f
 }
 
 
