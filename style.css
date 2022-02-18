@@ -144,7 +144,7 @@ h6 {
     justify-items: center;
     background-color: #142533; /* best colour */
     grid-area: naglowek;
-    grid-template-columns:  1fr ;
+    grid-template-columns: 50px 1fr ;
     color: white;
   
   }
