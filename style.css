@@ -220,8 +220,20 @@ h6 {
     font-size: 35px;
     background-color: #142533; /* best colour */
     grid-area: naglowek;
-    grid-template-columns: 300px 1fr ;
+    grid-template-columns: 150px 1fr ;
+    grid-template-rows: 150px 1fr;
     color: white;
+    .one {
+    grid-area:1/1/2/2;
+    }
+    .two {
+     grid-area:2/1/3/2;
+                }
+    
+    .three {
+     grid-area:2/2/3/3;
+                }
+    
 
   }
   #logo {
