@@ -1,4 +1,3 @@
-
 :root {
   --yellow: #ffc600;
   --black: #272727; 
@@ -47,8 +46,7 @@ h6 {
 }
 
 
-  
-  
+   
 
 /* Each item in our grid will contain numbers */
 .item1 {
@@ -63,6 +61,7 @@ h6 {
 }
 
 
+
 .item2 {
   /* We center the contents of these items. You can also do this with flexbox too! */
   display: grid;
@@ -71,9 +70,10 @@ h6 {
   font-size: 35px;
   background-color: lightslategray; /* best colour */
   grid-area: opisn;
- 
-  
-}
+  }
+
+
+
 .item3 {
   /* We center the contents of these items. You can also do this with flexbox too! */
   display: grid;
@@ -83,6 +83,9 @@ h6 {
   background-color: greenyellow; /* best colour */
   grid-area: opisi;
 }
+
+
+
 .item4 {
   /* We center the contents of these items. You can also do this with flexbox too! */
   display: grid;
@@ -99,9 +102,8 @@ h6 {
 display: grid;
 grid-area: linia;
 background-color: white;
+justify-content: center;
 }
-
-
 
 
 
@@ -119,8 +121,28 @@ background-color: white;
   display: grid;
   align-content: center;
   justify-items: center;
-  
-  }
+    }
+
+
+
+    #rectangle{
+
+      width:  auto%;
+      height: 10px;
+      background-color: #f0ce0f;
+      
+     } 
+    
+    
+     #triangle{
+      width:  0;
+      height: 0;
+      border-left: 30px solid transparent ;
+      border-right: 30px solid transparent;
+      border-top: 30px solid #f0ce0f;
+        
+     }
+
 
 
 @media (max-width: 599px){
@@ -149,8 +171,7 @@ background-color: white;
     grid-area: naglowek;
     grid-template-columns: 75px 1fr ;
     color: white;
-  
-  }
+    }
 
   #logo {
     height: 75px;
@@ -165,37 +186,16 @@ background-color: white;
           }
   
 }
-.item5 {
-  display: grid;
-  grid-area: linia;
-  justify-content: center;
-  
-  
-  }
-
- #rectangle{
-
-  width:  auto%;
-  height: 10px;
-  background-color: #f0ce0f;
-  
- } 
-
-
- #triangle{
-  width:  0;
-  height: 0;
-  border-left: 30px solid transparent ;
-  border-right: 30px solid transparent;
-  border-top: 30px solid #f0ce0f;
-  
-  
-
-
- }
 
 
 
+
+
+
+
+
+
+ 
 
 @media (min-width: 600px){
   .container {
@@ -259,6 +259,26 @@ background-color: white;
 
   
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
