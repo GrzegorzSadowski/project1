@@ -7,8 +7,7 @@ html {
   /* border-box box model allows us to add padding and border to our elements without increasing their size */
   box-sizing: border-box;
   /* A system font stack so things load nice and quick! */
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica,
-    Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  font-family:'Roboto', sans-serif;
   font-weight: 900;
   color: white;
   text-shadow: 0 2px 0 rgba(0, 0, 0, 0.07);
@@ -28,13 +27,14 @@ html {
 body {
   margin: -1px -1px -1px -1px;
   background-color: white;
-     height: 100vh;
+  height: 100vh;
   
   
   /* background: white; */
   
   
 }
+
 
 h1,
 h2,
@@ -46,7 +46,6 @@ h6 {
 }
 
 
-   
 
 /* Each item in our grid will contain numbers */
 .item1 {
@@ -91,7 +90,7 @@ h6 {
   display: grid;
   justify-content: center;
   align-items: center;
-  font-size: 35px;
+  font-size: 20px;
   background-color: #142533; /* best colour */
   grid-area: kontakt;
   border-top: 10px solid #f0ce0f
@@ -105,6 +104,13 @@ background-color: white;
 justify-content: center;
 }
 
+
+.item6 {
+  display: grid;
+  grid-area: media;
+  background-color: #142533;
+  border-top: 10px solid #f0ce0f
+  }
 
 
 
@@ -124,11 +130,23 @@ justify-content: center;
     }
 
 
+    .center{
+      display: grid;
+      align-content: center;
+      justify-items: center;
+        }
+
+        .bottom {
+          display: grid;
+          align-content: center;
+          justify-items: left;
+            }
+
 
     #rectangle{
 
       width:  auto%;
-      height: 10px;
+      height: 5px;
       background-color: #f0ce0f;
       
      } 
@@ -145,18 +163,35 @@ justify-content: center;
 
 
 
+
+
+#kreski {
+    width: 100%;
+    
+  }
+
+
+.zolty{
+  color: #f0ce0f;
+}
+
+
+
+/*============================================media queries */
+
 @media (max-width: 599px){
   .container {
     height: 100vh;
     width: 100%;
     display: grid;
     grid-template-columns:  1fr ;
-    grid-template-rows: 1fr 30px 3fr 3fr 1fr;
+    grid-template-rows: 100px 30px 3fr 3fr 1fr 1fr;
     grid-template-areas: "naglowek"
                           "linia"
                           "opisn"
                           "opisi"
-                          "kontakt";
+                          "kontakt"
+                          "media";
   
   
   }
@@ -170,6 +205,7 @@ justify-content: center;
     background-color: #142533; /* best colour */
     grid-area: naglowek;
     grid-template-columns: 75px 1fr ;
+    font-size: 10px;
     color: white;
     }
 
@@ -178,13 +214,53 @@ justify-content: center;
   }
 
   h1 {
-  font-size 12px;
+  font-size 10px;
           }
   
    h2 {
-  font-size 8px;
+  font-size 6px;
           }
   
+
+
+
+          .item4 {
+            /* We center the contents of these items. You can also do this with flexbox too! */
+            display: flex;
+            justify-content: center;
+            align-items: flex-end;
+            font-size: 15px;
+            background-color: #142533; /* best colour */
+            border-top: 5px solid #f0ce0f
+          }
+        
+        
+          .item6 {
+            display: grid;
+            grid-template-columns: 50px 1fr 50px 1fr 50px 1fr 50px 1fr;
+            justify-items: center;
+            align-content: center;
+            font-size: 15px;
+            background-color: #142533;
+            border-top: 5px solid #f0ce0f;
+               
+            }
+            .zolty{
+              color: #f0ce0f ;
+              text-decoration: underline;
+              
+              padding-left: 25px;
+              
+            }
+
+
+
+
+
+
+
+
+
 }
 
 
@@ -193,19 +269,19 @@ justify-content: center;
 
 
 
-
-
+/*-------------------------------------------------media---------------------------*/
  
 
-@media (min-width: 600px){
+@media (min-width: 600px ){
   .container {
+    display: grid;
     height: 100vh;
-  grid-template-columns: 250px 1fr 1fr 250px;
-  grid-template-rows: 250px 30px 4fr  250px;
-  grid-template-areas: "naglowek naglowek naglowek naglowek"
+    grid-template-columns: 250px  minmax(100px, 1fr)  minmax(100px, 1fr) 250px;
+    grid-template-rows: 250px 30px 4fr  minmax(150px, 250px);
+    grid-template-areas: "naglowek naglowek naglowek naglowek"
                         "linia linia linia linia"
                         "opisn opisn  opisi opisi"
-                        "kontakt kontakt kontakt kontakt";
+                        "kontakt kontakt media media";
 
   }
 
@@ -215,11 +291,11 @@ justify-content: center;
     display: grid;
     align-content: center;
     justify-items: center;
-    font-size: 35px;
+    font-size: 20px;
     background-color: #142533; /* best colour */
     grid-area: naglowek;
     grid-template-columns: 250px 1fr ;
-   color: white;
+    color: white;
 
   }
 
@@ -228,18 +304,21 @@ justify-content: center;
   #logo {
     height: 250px;
   }
+
+  
+
+
+  
   .item5 {
     display: grid;
     grid-area: linia;
     justify-content: center;
-    
-    
+        
     }
   
    #rectangle{
-  
     width:  auto%;
-    height: 10px;
+    height: 5px;
     background-color: #f0ce0f;
     
    } 
@@ -251,12 +330,48 @@ justify-content: center;
     border-left: 30px solid transparent ;
     border-right: 30px solid transparent;
     border-top: 30px solid #f0ce0f;
-    
-    
-  
+     
   
    }
 
+
+   .item4 {
+    /* We center the contents of these items. You can also do this with flexbox too! */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    background-color: #142533; /* best colour */
+    border-top: 5px solid #f0ce0f
+  }
+
+
+  .item6 {
+    display: grid;
+    grid-template-columns: 50px 1fr 50px 1fr 50px 1fr 50px 1fr;
+    justify-items: center;
+    align-content: center;
+    font-size: 18px;
+    background-color: #142533;
+    border-top: 5px solid #f0ce0f;
+       
+    }
+  
+    .zolty{
+      color: #f0ce0f ;
+      text-decoration: underline;
+      grid-column-start: 1;
+      grid-column-end: 9;
+      padding-bottom: 10px;
+      
+    }
+
+    i{
+
+      padding-left: 20px;
+    }
+
+             
   
 }
 
@@ -270,32 +385,20 @@ justify-content: center;
 
 
 
+/*===========================media 1024 ================================================*/
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-@media (min-width: 1023px){
+@media (min-width: 1024px){
   .container {
-    height: 100vh;
+  height: 100vh;
   grid-template-columns: 300px 1fr 1fr ;
-  grid-template-rows: 300px 30px 1fr;
+  grid-template-rows: 300px 30px minmax(260px, 1fr) minmax(260px, 1fr);
   grid-template-areas: "naglowek naglowek naglowek"
                         "kontakt linia linia"
-                        "kontakt opisn  opisi";
+                        "kontakt opisn  opisi"
+                        "media opisn  opisi";
+                        
   
   }
 
@@ -315,18 +418,48 @@ justify-content: center;
 
 
 
-  .item5 {
+  .item4 {
+    /* We center the contents of these items. You can also do this with flexbox too! */
     display: grid;
-    grid-area: linia;
-    justify-content: center;
+    font-size: 25px;
+    background-color: #142533; /* best colour */
+    grid-area: kontakt;
+    border-top: 5px solid #f0ce0f;
+    grid-template-columns: 94px 1fr ;
+    padding-bottom: 50px;
+   
+
     
     
-    }
+  }
+  
+
+    .item6 {
+      display: grid;
+      font-size: 25px;
+      grid-template-columns: 94px 1fr;
+      grid-area: media;
+      background-color: #142533;
+      align-items: center !important;
+      justify-items: left !important; 
+      border-top: 5px solid #f0ce0f;
+      align-content: stretch !important;
+      
+      
+      }
+   
+      .bottom {
+        display: grid;
+        align-self: end;
+        justify-items: left;
+          }
+
+
   
    #rectangle{
 
     width:  auto%;
-    height: 10px;
+    height: 5px;
     background-color: #f0ce0f;
     
    } 
@@ -348,6 +481,22 @@ justify-content: center;
     height: 300px;
   }
 
+  #kreski {
+    width: 94px;
+  }
+
+  i{
+
+    padding-left: 60px;
+  }
+  .zolty{
+    color: #f0ce0f ;
+    text-decoration: underline;
+    grid-column-start: 2;
+    grid-column-end: 3;
+    
+  }
   
 
   }
+
