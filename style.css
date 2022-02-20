@@ -257,6 +257,12 @@ justify-content: center;
 
 
 
+#kreski {
+      max-height: 50px;
+      
+      align-self: center;
+      justify-items: left;
+    }
 
 
 
@@ -372,6 +378,15 @@ justify-content: center;
     }
 
              
+  #kreski {
+      max-height: 50px;
+      
+      align-self: center;
+      justify-items: left;
+    }
+  
+  
+  
   
 }
 
