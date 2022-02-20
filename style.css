@@ -482,7 +482,7 @@ justify-content: center;
   }
 
   #kreski {
-    width: 94px;
+    width: 94px !important;
   }
 
   i{
