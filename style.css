@@ -229,7 +229,7 @@ justify-content: center;
             display: flex;
             justify-content: center;
             align-items: flex-end;
-            font-size: 15px;
+            font-size: 12px;
             background-color: #142533; /* best colour */
             border-top: 5px solid #f0ce0f
           }
@@ -240,7 +240,7 @@ justify-content: center;
             grid-template-columns: 50px 1fr 50px 1fr 50px 1fr 50px 1fr;
             justify-items: center;
             align-content: center;
-            font-size: 15px;
+            font-size: 12px;
             background-color: #142533;
             border-top: 5px solid #f0ce0f;
                
