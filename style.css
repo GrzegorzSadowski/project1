@@ -56,15 +56,12 @@ h6 {
   /* We center the contents of these items. You can also do this with flexbox too! */
   display: grid;
   grid-area: opisn;
-  
 }
 
 .item3 {
   /* We center the contents of these items. You can also do this with flexbox too! */
   display: grid;
   grid-area: opisi;
-  
-  
 }
 
 .item4 {
@@ -151,6 +148,8 @@ h6 {
   text-align: justify;
   font-size: 16px;
   color: black;
+  margin-top: 0px;
+  padding-bottom: 20px;
 }
 
 ul {
@@ -203,8 +202,8 @@ ul {
   .item4 {
     /* We center the contents of these items. You can also do this with flexbox too! */
     display: grid;
-    grid-template-columns: 50px 1fr 50px 1fr 50px 1fr ;
-    minmax(50px, 1fr);
+    grid-template-columns: 50px 1fr 50px 1fr 50px 1fr;
+    grid-template-rows: (50px, 1fr);
     align-items: center;
     align-content: center;
     font-size: 15px;
@@ -214,19 +213,34 @@ ul {
 
   .item6 {
     display: grid;
-    grid-template-columns:  1fr 50px 1fr 50px 1fr 50px 1fr;
-    grid-template-rows: minmax(50px, 1fr);
+    grid-template-columns: 1fr 50px 1fr 50px 1fr 50px 1fr;
     justify-items: center;
     align-content: center;
-    font-size: 15px;
+    font-size: 18px;
     background-color: #142533;
     border-top: 5px solid #f0ce0f;
+    padding-bottom: 15px;
+    padding-top: 15px;
   }
+
   .zolty {
     color: #f0ce0f;
     text-decoration: underline;
+    grid-column-start: 1;
+    grid-column-end: 9;
+    padding-bottom: 10px;
+  }
 
-    padding-left: 25px;
+  i {
+    padding-right: 15px;
+    justify-self: end;
+  }
+
+  #kreski {
+    display: grid;
+    padding-bottom: 15px;
+    max-width: 50px;
+    justify-self: end;
   }
 }
 
@@ -236,14 +250,14 @@ ul {
   .container {
     display: grid;
     height: 100vh;
-    grid-template-columns:  1px minmax(100px, 1fr) minmax(100px, 1fr) 1px ;
-    grid-template-rows: 250px 30px 4fr minmax(150px, 250px) minmax(150px, 250px) ;
+    grid-template-columns: minmax(100px, 1fr) minmax(100px, 1fr);
+    grid-template-rows: 250px 30px 4fr minmax(150px, 250px) minmax(150px, 250px);
     grid-template-areas:
-      "naglowek naglowek naglowek naglowek"
-      "linia linia linia linia"
-      "opisn opisn  opisi opisi"
-      "kontakt kontakt kontakt kontakt"
-      "media media media media";
+      " naglowek naglowek"
+      " linia linia"
+      "opisn  opisi"
+      "kontakt kontakt"
+      "media media";
   }
 
   .item1 {
@@ -285,7 +299,7 @@ ul {
   .item4 {
     /* We center the contents of these items. You can also do this with flexbox too! */
     display: grid;
-    grid-template-columns: 50px 1fr 50px 1fr 50px 1fr ;
+    grid-template-columns: 1fr 50px 1fr 50px 1fr 50px 1fr;
     justify-content: center;
     align-items: center;
     font-size: 18px;
@@ -295,7 +309,7 @@ ul {
 
   .item6 {
     display: grid;
-    grid-template-columns:  1fr 50px 1fr 50px 1fr 50px 1fr;
+    grid-template-columns: 1fr 50px 1fr 50px 1fr 50px 1fr;
     justify-items: center;
     align-content: center;
     font-size: 18px;
@@ -312,7 +326,15 @@ ul {
   }
 
   i {
-    padding-left: 20px;
+    padding-right: 15px;
+    justify-self: end;
+  }
+
+  #kreski {
+    display: grid;
+    padding-bottom: 10px;
+    max-width: 50px;
+    justify-self: end;
   }
 }
 
@@ -404,3 +426,4 @@ ul {
     grid-column-end: 3;
   }
 }
+
