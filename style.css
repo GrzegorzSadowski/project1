@@ -333,7 +333,7 @@ ul {
   #kreski {
     display: grid;
     padding-bottom: 10px;
-    max-width: 50px;
+    width: 50px;
     justify-self: end;
   }
 }
@@ -344,7 +344,7 @@ ul {
   .container {
     height: 100vh;
     grid-template-columns: 300px 1fr 1fr;
-    grid-template-rows: 300px 30px minmax(260px, 1fr) minmax(260px, 1fr);
+    grid-template-rows: 300px 30px minmax(300px, 1fr) minmax(300px, 1fr);
     grid-template-areas:
       "naglowek naglowek naglowek"
       "kontakt linia linia"
@@ -371,9 +371,10 @@ ul {
     font-size: 25px;
     background-color: #142533; /* best colour */
     grid-area: kontakt;
+    align-items: start !important;
     border-top: 5px solid #f0ce0f;
     grid-template-columns: 94px 1fr;
-    padding-bottom: 50px;
+    padding-bottom: 60px;
   }
 
   .item6 {
@@ -386,6 +387,7 @@ ul {
     justify-items: left !important;
     border-top: 5px solid #f0ce0f;
     align-content: stretch !important;
+    padding-bottom: 50px;
   }
 
   .bottom {
@@ -414,11 +416,14 @@ ul {
 
   #kreski {
     width: 94px !important;
+    align-content: end;
+    padding-bottom: 0px;
   }
 
   i {
     padding-left: 60px;
   }
+
   .zolty {
     color: #f0ce0f;
     text-decoration: underline;
